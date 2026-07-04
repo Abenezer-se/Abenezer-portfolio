@@ -6,18 +6,12 @@
   <meta name="description" content="Abenezer Samson Zewdu — Frontend Engineer & UI/UX Designer based in Dire Dawa, Ethiopia." />
   <title>Abenezer Samson — Frontend Engineer & UI/UX Designer</title>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-  <!-- Icons -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-  <!-- AOS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
-  <!-- Main CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -59,47 +53,39 @@
     </div>
   </nav>
 
-  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero-bg-orb hero-orb-1"></div>
     <div class="hero-bg-orb hero-orb-2"></div>
     <div class="hero-grid-overlay"></div>
     <div class="hero-container">
       <div class="hero-text" data-aos="fade-right" data-aos-duration="900">
-        <div class="hero-badge"><span class="badge-dot"></span>Open to Work</div>
+        <div class="hero-badge"><span class="badge-dot"></span>Available for Work</div>
         <h1 class="hero-name">Abenezer<br /><span class="hero-name-accent">Samson</span></h1>
-        <p class="hero-role">Frontend Engineer <span class="role-divider">&amp;</span> UI/UX Designer</p>
-        <p class="hero-bio">I craft responsive frontend solutions that combine high-fidelity visual design with fast, interactive user experiences — bridging code with creative thinking.</p>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
-            <span class="stat-label">Projects</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
-            <span class="stat-label">Technologies</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-text">3rd / 2nd</span>
-            <span class="stat-label">Year Student</span>
-          </div>
-        </div>
+        <p class="hero-role">I design and build <span class="role-highlight">modern digital experiences</span> that help businesses grow.</p>
+        <p class="hero-bio">Frontend Engineer and UI/UX Designer based in Dire Dawa, Ethiopia. I turn complex problems into elegant, high-performance interfaces — combining engineering precision with deliberate visual craft.</p>
         <div class="hero-actions">
           <a href="assets/files/cv.pdf" target="_blank" class="btn btn-primary btn-glow"><i class="fas fa-eye"></i> View CV</a>
           <a href="assets/files/cv.pdf" download class="btn btn-secondary"><i class="fas fa-download"></i> Download CV</a>
           <a href="#projects" class="btn btn-ghost"><i class="fas fa-arrow-down"></i> My Work</a>
         </div>
+        <div class="hero-tech-row">
+          <span class="tech-pill"><i class="fab fa-react"></i> React</span>
+          <span class="tech-pill"><i class="fab fa-js"></i> TypeScript</span>
+          <span class="tech-pill"><i class="fas fa-palette"></i> Figma</span>
+          <span class="tech-pill"><i class="fas fa-mobile-alt"></i> Flutter</span>
+        </div>
       </div>
       <div class="hero-image-wrap" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
         <div class="hero-image-glow"></div>
         <div class="hero-image-ambient"></div>
-        <img src="assets/images/profile.jpg" alt="Abenezer Samson Zewdu" class="hero-image" loading="eager" />
-        <div class="hero-image-overlay"></div>
-        <div class="floating-badge fb-1"><i class="fab fa-react"></i> React</div>
+        <div class="hero-image-frame">
+          <img src="assets/images/profile.jpg" alt="Abenezer Samson Zewdu" class="hero-image" loading="eager" />
+        </div>
+        <div class="floating-badge fb-1"><i class="fab fa-react"></i> React Dev</div>
         <div class="floating-badge fb-2"><i class="fas fa-palette"></i> UI/UX</div>
         <div class="floating-badge fb-3"><i class="fas fa-mobile-alt"></i> Flutter</div>
+        <div class="hero-status-pill"><span class="status-dot"></span> Open to Work</div>
       </div>
     </div>
     <a href="#about" class="scroll-indicator" aria-label="Scroll down">
@@ -107,22 +93,28 @@
     </a>
   </section>
 
-  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <!-- ABOUT -->
   <section class="section about" id="about">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
         <span class="section-eyebrow">Who I Am</span>
         <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <p class="section-subtitle">A brief look at who I am, what I do, and why I do it.</p>
       </div>
       <div class="about-grid">
         <div class="about-bio" data-aos="fade-right" data-aos-delay="100">
-          <p class="about-text">I'm <strong>Abenezer Samson Zewdu</strong>, a Frontend Engineer and UI/UX Designer based in <strong>Dire Dawa, Ethiopia</strong>. I build interfaces that feel as good as they look — combining performance-first engineering with deliberate visual craft.</p>
-          <p class="about-text">Currently pursuing a <strong>BSc in Software Engineering (3rd Year)</strong> at Dire Dawa University's Institute of Technology, alongside a <strong>BA in Management (2nd Year)</strong> at the College of Business & Economics — graduating from both in 2028.</p>
-          <p class="about-text">Beyond code, I'm deeply invested in UI/UX Design, Social Media Management, and collaborative teamwork — bridging technical execution with strategic thinking.</p>
+          <h3 class="about-headline">Turning ideas into remarkable digital products.</h3>
+          <p class="about-text">I'm <strong>Abenezer Samson Zewdu</strong>, a Frontend Engineer and UI/UX Designer passionate about building interfaces that feel as good as they look. I combine performance-first engineering with deliberate visual craft to create products users love.</p>
+          <p class="about-text">Currently pursuing a <strong>BSc in Software Engineering (3rd Year)</strong> at Dire Dawa University alongside a <strong>BA in Management (2nd Year)</strong> — graduating from both in 2028. This dual path lets me bridge technical execution with strategic thinking.</p>
+          <p class="about-text">Beyond code, I'm invested in <strong>UI/UX Design</strong>, Social Media Management, and collaborative teamwork. I care deeply about the people who use the products I build.</p>
           <div class="about-links">
             <a href="mailto:abenezersamson414@gmail.com" class="about-link"><i class="fas fa-envelope"></i>abenezersamson414@gmail.com</a>
             <a href="tel:+251978760949" class="about-link"><i class="fas fa-phone"></i>+251 978 760 949</a>
             <a href="https://maps.google.com/?q=Dire+Dawa,+Ethiopia" target="_blank" class="about-link"><i class="fas fa-map-marker-alt"></i>Dire Dawa, Ethiopia ↗</a>
+          </div>
+          <div class="about-cta-row">
+            <a href="assets/files/cv.pdf" target="_blank" class="btn btn-primary btn-glow btn-sm"><i class="fas fa-eye"></i> View CV</a>
+            <a href="assets/files/cv.pdf" download class="btn btn-secondary btn-sm"><i class="fas fa-download"></i> Download CV</a>
           </div>
         </div>
         <div class="about-cards" data-aos="fade-left" data-aos-delay="200">
@@ -155,107 +147,250 @@
           </div>
         </div>
       </div>
-      <div class="services-grid">
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="0"><div class="service-icon"><i class="fas fa-desktop"></i></div><h3 class="service-title">Frontend Development</h3><p class="service-desc">Custom web apps built with React, TypeScript, and Tailwind CSS — pixel-perfect and performance-first.</p></div>
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="80"><div class="service-icon"><i class="fas fa-palette"></i></div><h3 class="service-title">UI/UX Design</h3><p class="service-desc">User-centered design with wireframing, high-fidelity mockups, and cohesive design systems.</p></div>
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="160"><div class="service-icon"><i class="fas fa-mobile-alt"></i></div><h3 class="service-title">Mobile Development</h3><p class="service-desc">Cross-platform mobile apps using Flutter and Dart for smooth native Android & iOS experiences.</p></div>
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="240"><div class="service-icon"><i class="fas fa-coffee"></i></div><h3 class="service-title">Java Engineering</h3><p class="service-desc">Desktop systems using Java, Swing, and clean OOP architecture to solve complex problems.</p></div>
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="320"><div class="service-icon"><i class="fas fa-database"></i></div><h3 class="service-title">Database Architecture</h3><p class="service-desc">MySQL and Firestore schema design, clean data fetching, and JDBC integrations.</p></div>
-        <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="400"><div class="service-icon"><i class="fas fa-bolt"></i></div><h3 class="service-title">Performance Optimization</h3><p class="service-desc">Web performance tuning, responsive optimization, and touch-friendly component engineering.</p></div>
+
+      <!-- SERVICES -->
+      <div class="services-section">
+        <h3 class="services-heading" data-aos="fade-up">What I <span class="accent">Offer</span></h3>
+        <div class="services-grid">
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="service-icon"><i class="fas fa-desktop"></i></div>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-desc">Custom web apps built with React, TypeScript, and Tailwind CSS — pixel-perfect and performance-first.</p>
+            <div class="service-tags"><span>React</span><span>TypeScript</span><span>Tailwind</span></div>
+          </div>
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="service-icon"><i class="fas fa-palette"></i></div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-desc">User-centered design with wireframing, high-fidelity mockups, and cohesive design systems.</p>
+            <div class="service-tags"><span>Figma</span><span>Prototyping</span><span>Design Systems</span></div>
+          </div>
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3 class="service-title">Mobile Development</h3>
+            <p class="service-desc">Cross-platform mobile apps using Flutter and Dart for smooth native Android & iOS experiences.</p>
+            <div class="service-tags"><span>Flutter</span><span>Dart</span><span>Android</span></div>
+          </div>
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="240">
+            <div class="service-icon"><i class="fas fa-coffee"></i></div>
+            <h3 class="service-title">Java Engineering</h3>
+            <p class="service-desc">Desktop systems using Java, Swing, and clean OOP architecture to solve complex problems.</p>
+            <div class="service-tags"><span>Java</span><span>Swing</span><span>OOP</span></div>
+          </div>
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="320">
+            <div class="service-icon"><i class="fas fa-database"></i></div>
+            <h3 class="service-title">Database Architecture</h3>
+            <p class="service-desc">MySQL and Firestore schema design, clean data fetching, and JDBC integrations.</p>
+            <div class="service-tags"><span>MySQL</span><span>Firestore</span><span>JDBC</span></div>
+          </div>
+          <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon"><i class="fas fa-bolt"></i></div>
+            <h3 class="service-title">Performance Optimization</h3>
+            <p class="service-desc">Web performance tuning, responsive optimization, and touch-friendly component engineering.</p>
+            <div class="service-tags"><span>Lighthouse</span><span>Core Web Vitals</span><span>SEO</span></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+  <!-- SKILLS -->
   <section class="section skills" id="skills">
     <div class="skills-bg-orb"></div>
     <div class="container">
       <div class="section-header" data-aos="fade-up">
         <span class="section-eyebrow">What I Know</span>
         <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I use to build exceptional digital products.</p>
       </div>
-      <div class="skills-grid">
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="0"><div class="skill-header"><div class="skill-icon-wrap"><i class="fab fa-react"></i></div><div class="skill-info"><span class="skill-name">React &amp; TypeScript</span><span class="skill-pct">95%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="60"><div class="skill-header"><div class="skill-icon-wrap"><i class="fab fa-html5"></i></div><div class="skill-info"><span class="skill-name">HTML5 / CSS3 / Tailwind</span><span class="skill-pct">94%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="94"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="120"><div class="skill-header"><div class="skill-icon-wrap"><i class="fas fa-palette"></i></div><div class="skill-info"><span class="skill-name">UI/UX Design &amp; Figma</span><span class="skill-pct">92%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="180"><div class="skill-header"><div class="skill-icon-wrap"><i class="fas fa-users"></i></div><div class="skill-info"><span class="skill-name">Team Work &amp; Collaboration</span><span class="skill-pct">95%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="240"><div class="skill-header"><div class="skill-icon-wrap"><i class="fas fa-bullhorn"></i></div><div class="skill-info"><span class="skill-name">Social Media Management</span><span class="skill-pct">88%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="300"><div class="skill-header"><div class="skill-icon-wrap"><i class="fas fa-mobile-alt"></i></div><div class="skill-info"><span class="skill-name">Flutter &amp; Dart</span><span class="skill-pct">78%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="360"><div class="skill-header"><div class="skill-icon-wrap"><i class="fab fa-java"></i></div><div class="skill-info"><span class="skill-name">Java &amp; OOP</span><span class="skill-pct">75%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
-        <div class="skill-card glass-card" data-aos="fade-up" data-aos-delay="420"><div class="skill-header"><div class="skill-icon-wrap"><i class="fas fa-database"></i></div><div class="skill-info"><span class="skill-name">MySQL &amp; Firestore</span><span class="skill-pct">70%</span></div></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+      <div class="skills-categories" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-category">
+          <h4 class="skill-cat-title"><i class="fas fa-desktop"></i> Frontend</h4>
+          <div class="skill-badges">
+            <span class="skill-badge"><i class="fab fa-react"></i> React</span>
+            <span class="skill-badge"><i class="fab fa-js"></i> TypeScript</span>
+            <span class="skill-badge"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-badge"><i class="fas fa-wind"></i> Tailwind CSS</span>
+            <span class="skill-badge"><i class="fab fa-js-square"></i> JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title"><i class="fas fa-server"></i> Backend & Mobile</h4>
+          <div class="skill-badges">
+            <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+            <span class="skill-badge"><i class="fas fa-mobile-alt"></i> Flutter</span>
+            <span class="skill-badge"><i class="fas fa-mobile-alt"></i> Dart</span>
+            <span class="skill-badge"><i class="fas fa-code"></i> C / C++</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title"><i class="fas fa-database"></i> Database</h4>
+          <div class="skill-badges">
+            <span class="skill-badge"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-badge"><i class="fas fa-fire"></i> Firestore</span>
+            <span class="skill-badge"><i class="fas fa-server"></i> JDBC</span>
+            <span class="skill-badge"><i class="fas fa-database"></i> SQLite</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title"><i class="fas fa-tools"></i> Tools & Design</h4>
+          <div class="skill-badges">
+            <span class="skill-badge"><i class="fab fa-figma"></i> Figma</span>
+            <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-badge"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-badge"><i class="fas fa-code"></i> VS Code</span>
+            <span class="skill-badge"><i class="fas fa-layer-group"></i> Vercel</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title"><i class="fas fa-users"></i> Soft Skills</h4>
+          <div class="skill-badges">
+            <span class="skill-badge"><i class="fas fa-users"></i> Teamwork</span>
+            <span class="skill-badge"><i class="fas fa-bullhorn"></i> Social Media</span>
+            <span class="skill-badge"><i class="fas fa-project-diagram"></i> Project Management</span>
+            <span class="skill-badge"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+  <!-- PROJECTS -->
   <section class="section projects" id="projects">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
         <span class="section-eyebrow">What I've Built</span>
         <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+        <p class="section-subtitle">Live products built with care, precision, and real users in mind.</p>
       </div>
       <div class="projects-grid">
+
         <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="0">
-          <div class="project-number">01</div>
-          <div class="project-icon-wrap"><i class="fas fa-bullhorn"></i></div>
-          <h3 class="project-title">Siltawi Digital Marketing</h3>
-          <p class="project-desc">A premium bilingual (English &amp; Amharic) digital marketing agency platform built with React, Tailwind CSS, and TypeScript. Features instant language switching, sleek animations, and dynamic client project cards.</p>
-          <div class="project-tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Bilingual</span><span class="tag">Vercel</span></div>
-          <div class="project-actions">
-            <a href="https://siltawi-digital-marketing-green.vercel.app/" target="_blank" class="btn btn-primary btn-sm btn-glow"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="https://github.com/Abenezer-se" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+          <div class="project-card-top">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <div class="mockup-screen">
+                  <div class="mockup-screen-inner siltawi-preview">
+                    <div class="preview-nav"></div>
+                    <div class="preview-hero-block">
+                      <div class="preview-line long"></div>
+                      <div class="preview-line medium"></div>
+                      <div class="preview-btn-mock"></div>
+                    </div>
+                    <div class="preview-cards-row">
+                      <div class="preview-card-mini"></div>
+                      <div class="preview-card-mini"></div>
+                      <div class="preview-card-mini"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-live-badge"><span class="live-dot"></span>Live</div>
+            <div class="project-number-bg">01</div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-category">Digital Marketing · Bilingual</div>
+            <h3 class="project-title">Siltawi Digital Marketing</h3>
+            <p class="project-desc">A premium bilingual (English & Amharic) digital marketing agency platform built with React, TypeScript, and Tailwind CSS. Features instant language switching, sleek animations, and dynamic project showcases.</p>
+            <div class="project-tags">
+              <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Tailwind</span><span class="tag">Bilingual</span><span class="tag">Vercel</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://siltawi-digital-marketing-green.vercel.app/" target="_blank" class="btn btn-primary btn-glow btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/Abenezer-se" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
           </div>
         </div>
+
         <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="150">
-          <div class="project-number">02</div>
-          <div class="project-icon-wrap"><i class="fas fa-fire"></i></div>
-          <h3 class="project-title">WOW Burger</h3>
-          <p class="project-desc">A bold, high-fidelity burger restaurant and ordering website designed with rich visual presentation, interactive menus, customizable food options, and smooth micro-interactions to drive high customer conversion.</p>
-          <div class="project-tags"><span class="tag">React</span><span class="tag">Custom CSS</span><span class="tag">UI/UX Design</span><span class="tag">Vercel</span></div>
-          <div class="project-actions">
-            <a href="https://wow-burger-rho.vercel.app/" target="_blank" class="btn btn-primary btn-sm btn-glow"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="https://github.com/Abenezer-se" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+          <div class="project-card-top">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <div class="mockup-screen">
+                  <div class="mockup-screen-inner burger-preview">
+                    <div class="preview-nav dark"></div>
+                    <div class="preview-hero-block dark-block">
+                      <div class="preview-line long light"></div>
+                      <div class="preview-line medium light"></div>
+                      <div class="preview-btn-mock red"></div>
+                    </div>
+                    <div class="preview-cards-row">
+                      <div class="preview-card-mini dark-card"></div>
+                      <div class="preview-card-mini dark-card"></div>
+                      <div class="preview-card-mini dark-card"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-live-badge"><span class="live-dot"></span>Live</div>
+            <div class="project-number-bg">02</div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-category">Restaurant · E-Commerce</div>
+            <h3 class="project-title">WOW Burger</h3>
+            <p class="project-desc">A bold, high-fidelity burger restaurant website with rich visual presentation, interactive menus, customizable food options, and smooth micro-interactions designed to drive conversion.</p>
+            <div class="project-tags">
+              <span class="tag">React</span><span class="tag">Custom CSS</span><span class="tag">UI/UX</span><span class="tag">Vercel</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://wow-burger-rho.vercel.app/" target="_blank" class="btn btn-primary btn-glow btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/Abenezer-se" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <!-- CONTACT -->
   <section class="section contact" id="contact">
     <div class="contact-bg-orb"></div>
     <div class="container">
       <div class="section-header" data-aos="fade-up">
         <span class="section-eyebrow">Let's Connect</span>
-        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        <h2 class="section-title">Have a Project <span class="accent">in Mind?</span></h2>
+        <p class="section-subtitle">I'm currently open to freelance work and full-time opportunities. Let's build something remarkable together.</p>
       </div>
-
       <div class="contact-top-grid">
-
-        <!-- Left: info + social + map -->
         <div class="contact-left" data-aos="fade-right" data-aos-delay="100">
-          <p class="contact-intro">I'm currently open to freelance work and collaborations. Whether you have a project idea, a job opportunity, or just want to say hello — my inbox is always open.</p>
-
           <div class="contact-items">
             <a href="tel:+251978760949" class="contact-item glass-card">
               <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
               <div class="contact-item-body"><span class="contact-item-label">Phone</span><span class="contact-item-value">+251 978 760 949</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
             </a>
             <a href="mailto:abenezersamson414@gmail.com" class="contact-item glass-card">
               <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
               <div class="contact-item-body"><span class="contact-item-label">Email</span><span class="contact-item-value">abenezersamson414@gmail.com</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
             </a>
-            <a href="https://t.me/abeni_sams" target="_blank" class="contact-item glass-card">
-              <div class="contact-item-icon"><i class="fab fa-telegram"></i></div>
-              <div class="contact-item-body"><span class="contact-item-label">Telegram</span><span class="contact-item-value">@abeni_sams</span></div>
+            <a href="https://www.linkedin.com/in/abenezer-samson-bb2415309" target="_blank" class="contact-item glass-card">
+              <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-item-body"><span class="contact-item-label">LinkedIn</span><span class="contact-item-value">Abenezer Samson</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://github.com/Abenezer-se" target="_blank" class="contact-item glass-card">
+              <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-item-body"><span class="contact-item-label">GitHub</span><span class="contact-item-value">Abenezer-se</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://instagram.com/abeni_sams" target="_blank" class="contact-item glass-card">
+              <div class="contact-item-icon"><i class="fab fa-instagram"></i></div>
+              <div class="contact-item-body"><span class="contact-item-label">Instagram</span><span class="contact-item-value">@abeni_sams</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
             </a>
             <a href="https://maps.google.com/?q=Dire+Dawa,+Ethiopia" target="_blank" class="contact-item glass-card">
               <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
               <div class="contact-item-body"><span class="contact-item-label">Location</span><span class="contact-item-value">Dire Dawa, Ethiopia ↗</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
             </a>
           </div>
 
-          <!-- Social Links -->
           <div class="social-row">
             <a href="https://www.linkedin.com/in/abenezer-samson-bb2415309" target="_blank" class="social-btn" aria-label="LinkedIn" data-social="linkedin"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/Abenezer-se" target="_blank" class="social-btn" aria-label="GitHub" data-social="github"><i class="fab fa-github"></i></a>
@@ -263,32 +398,41 @@
             <a href="https://t.me/abeni_sams" target="_blank" class="social-btn" aria-label="Telegram" data-social="telegram"><i class="fab fa-telegram"></i></a>
           </div>
 
-          <!-- Embedded Map -->
           <div class="map-wrap glass-card">
             <div class="map-header"><i class="fas fa-map-marker-alt"></i> Dire Dawa, Ethiopia</div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126133.0566441997!2d41.8001!3d9.5930!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x162e5b7d607e01e7%3A0xa4e86b6cdecf3c0e!2sDire%20Dawa%2C%20Ethiopia!5e0!3m2!1sen!2s!4v1700000000000"
-              width="100%" height="220" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dire Dawa, Ethiopia">
+              width="100%" height="220" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dire Dawa Map">
             </iframe>
             <a href="https://maps.google.com/?q=Dire+Dawa,+Ethiopia" target="_blank" class="map-link btn btn-ghost btn-sm"><i class="fas fa-external-link-alt"></i> Open in Google Maps</a>
           </div>
+
+          <!-- CV Card -->
+          <div class="cv-card glass-card">
+            <div class="cv-icon"><i class="fas fa-file-alt"></i></div>
+            <div class="cv-body">
+              <h3 class="cv-title">My Curriculum Vitae</h3>
+              <p class="cv-desc">View or download my full CV — education, experience, and projects.</p>
+              <div class="cv-actions">
+                <a href="assets/files/cv.pdf" target="_blank" class="btn btn-primary btn-glow btn-sm"><i class="fas fa-eye"></i> View CV</a>
+                <a href="assets/files/cv.pdf" download class="btn btn-secondary btn-sm"><i class="fas fa-download"></i> Download</a>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Right: Contact Form -->
         <div class="contact-right" data-aos="fade-left" data-aos-delay="200">
           <div class="form-card glass-card">
             <h3 class="form-title">Send Me a Message</h3>
-            <p class="form-subtitle">Fill the form below and I'll receive it directly in my email inbox.</p>
-
+            <p class="form-subtitle">Fill the form and I'll get back to you within 24 hours.</p>
             <div id="formStatus" class="form-status" style="display:none;"></div>
-
             <form id="contactForm" novalidate>
               <div class="form-row">
                 <div class="form-group">
                   <label class="form-label" for="name">Your Name</label>
                   <div class="form-input-wrap">
                     <i class="fas fa-user form-input-icon"></i>
-                    <input class="form-input" type="text" id="name" name="name" placeholder="Abenezer Samson" required />
+                    <input class="form-input" type="text" id="name" name="name" placeholder="John Doe" required />
                   </div>
                 </div>
                 <div class="form-group">
@@ -310,7 +454,7 @@
                 <label class="form-label" for="message">Message</label>
                 <div class="form-input-wrap">
                   <i class="fas fa-comment form-input-icon textarea-icon"></i>
-                  <textarea class="form-input form-textarea" id="message" name="message" placeholder="Hi Abenezer, I'd like to work with you on..." rows="5" required></textarea>
+                  <textarea class="form-input form-textarea" id="message" name="message" placeholder="Hi Abenezer, I'd love to work with you on..." rows="5" required></textarea>
                 </div>
               </div>
               <button type="submit" class="btn btn-primary btn-glow form-submit">
@@ -319,21 +463,7 @@
               </button>
             </form>
           </div>
-
-          <!-- CV Card -->
-          <div class="cv-card glass-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="cv-icon"><i class="fas fa-file-alt"></i></div>
-            <div class="cv-body">
-              <h3 class="cv-title">My Curriculum Vitae</h3>
-              <p class="cv-desc">View or download my full CV to learn about my education, experience, and projects.</p>
-              <div class="cv-actions">
-                <a href="assets/files/cv.pdf" target="_blank" class="btn btn-primary btn-glow btn-sm"><i class="fas fa-eye"></i> View CV</a>
-                <a href="assets/files/cv.pdf" download class="btn btn-secondary btn-sm"><i class="fas fa-download"></i> Download</a>
-              </div>
-            </div>
-          </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -341,22 +471,46 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-container">
-      <div class="footer-logo"><span class="logo-bracket">&lt;</span>AS<span class="logo-bracket">/&gt;</span></div>
-      <p class="footer-copy">© 2026 Abenezer Samson Zewdu. Crafted with precision &amp; passion.</p>
-      <div class="footer-socials">
-        <a href="https://github.com/Abenezer-se" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/abenezer-samson-bb2415309" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://instagram.com/abeni_sams" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://t.me/Yemaryamelij" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-bracket">&lt;</span>AS<span class="logo-bracket">/&gt;</span></div>
+          <p class="footer-tagline">Frontend Engineer & UI/UX Designer based in Dire Dawa, Ethiopia. Building digital experiences that matter.</p>
+          <div class="footer-socials">
+            <a href="https://github.com/Abenezer-se" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abenezer-samson-bb2415309" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/abeni_sams" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/abeni_sams" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <ul>
+            <li><a href="mailto:abenezersamson414@gmail.com"><i class="fas fa-envelope"></i> Email Me</a></li>
+            <li><a href="tel:+251978760949"><i class="fas fa-phone"></i> Call Me</a></li>
+            <li><a href="assets/files/cv.pdf" target="_blank"><i class="fas fa-file-alt"></i> View CV</a></li>
+            <li><a href="assets/files/cv.pdf" download><i class="fas fa-download"></i> Download CV</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Abenezer Samson Zewdu. Crafted with precision & passion.</p>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
       </div>
     </div>
   </footer>
 
-  <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <!-- AOS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <!-- Main JS -->
   <script src="js/script.js"></script>
 </body>
 </html>
