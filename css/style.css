@@ -449,6 +449,20 @@ ul   { list-style:none; }
 .preview-card-mini { flex:1; height:26px; background:rgba(255,255,255,.06); border-radius:4px; }
 .preview-card-mini.dark-card { background:rgba(192,21,42,.1); }
 
+/* Attendance preview (Mesrete Hiwot) */
+.attendance-preview { background:linear-gradient(135deg,#0d0a05,#1c1306); }
+.preview-nav.amber { background:rgba(244,124,32,.14); }
+.preview-hero-block.amber-block { background:rgba(244,124,32,.08); }
+.preview-btn-mock.amber-btn { background:rgba(244,124,32,.55); }
+.preview-card-mini.amber-card { background:rgba(244,124,32,.1); }
+
+/* Center the last card when the grid has an odd number of projects */
+.projects-grid .project-card:last-child:nth-child(odd) {
+  grid-column:1 / -1;
+  width:calc(50% - 16px);
+  justify-self:center;
+}
+
 /* Card body */
 .project-card-body { padding:28px 28px 24px; }
 .project-category { font-family:var(--font-mono); font-size:.68rem; color:var(--accent); text-transform:uppercase; letter-spacing:.12em; margin-bottom:8px; font-weight:500; }
@@ -597,6 +611,7 @@ ul   { list-style:none; }
   .hero-actions { justify-content:center; }
   .hero-tech-row { justify-content:center; }
   .projects-grid { grid-template-columns:1fr; }
+  .projects-grid .project-card:last-child:nth-child(odd) { width:100%; }
   .skills-grid { grid-template-columns:1fr; }
   .services-grid { grid-template-columns:1fr; }
   .footer-top { grid-template-columns:1fr; gap:32px; }
